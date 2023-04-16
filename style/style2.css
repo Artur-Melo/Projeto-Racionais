@@ -1,0 +1,118 @@
+/* Definindo o estilo geral da página */
+body {
+    background-color: #141414;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Estilizando o contêiner principal */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+  }
+  
+  /* Estilizando o logotipo da Netflix */
+  .logo {
+    font-size: 4rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilizando o título da página */
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;  
+  }
+  
+  /* Estilizando a grade de perfis */
+  .profiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilizando cada perfil individualmente */
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  /* Estilizando o nome de usuário */
+  .profile h3 {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+
+  /* Estilizando a imagem de perfil */
+.profile img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+
+  
+  /* Estilizando a imagem de perfil */
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    transition: filter 0.3s ease-in-out, border 0.3s ease-in-out;
+  }
+  
+  /* Efeito ao passar o mouse sobre a imagem de perfil */
+  .profile img:hover {
+    filter: brightness(75%);
+    border: 5px solid #fff;
+  }
+
+  /* Estilizando a área do perfil */
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    cursor: pointer;
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  /* Estilizando o nome do perfil */
+  .profile h3 {
+    color: #808080;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 5px;
+    transition: filter 0.3s ease-in-out;
+    
+
+  }
+  
+  
+  /* Modificando o estilo do nome do perfil ao passar o mouse */
+  .profile:hover h3 {
+    color: #fff;
+    font-weight: 600;
+    transition: filter 0.3s ease-in-out;
+
+  }
+  header {
+    background-color: #141414;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;  
+  }
+
+  
